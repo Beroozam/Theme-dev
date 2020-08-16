@@ -38,9 +38,13 @@ a{
 
 }
 .main-masthead > ul > li > a{
-    display: inline-block;
+    display: block;
     color:#fdfdfd;
-    padding:.6rem 1rem;
-    font-size:15px;
-    font-family: 'behrooz' , tahoma;
+    padding:1.1rem;
+    font-size:.9rem;
+    font-family: 'behrooz';
+    line-height: 1;
+}
+.main-masthead > ul > li > a:hover{
+    background-color: #2ecc71;
 }
