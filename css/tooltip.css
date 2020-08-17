@@ -1,0 +1,57 @@
+﻿.tooltip {
+    text-decoration: none;
+    color: #FDFDFD;
+    text-align: right;
+    outline: none;
+}
+div#mcTooltip {
+    line-height: 16px;
+    color: #333;
+    border-color: #2c3e50;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Tahoma;
+    direction: rtl;
+}
+div#mcTooltip, div.mcTooltipInner {
+    background-color: #34495e;
+    direction: rtl !important;
+}
+div.mcTooltipInner span {
+    font: 11px Tahoma;
+    direction: rtl;
+}
+div#mcTooltip a {
+    color: #FDFDFD;
+}
+div#mcTooltipWrapper {
+    position: absolute;
+    visibility: hidden;
+    overflow: visible;
+    z-index: 9999999999;
+    top: 0px;
+}
+div#mcTooltip {
+    float: left;
+    border-style: solid;
+    position: relative;
+    overflow: hidden;
+}
+div.mcTooltipInner {
+    float: left;
+    position: relative;
+    text-align: right;
+    width: auto;
+    height: auto;
+    color: #FDFDFD
+}
+div#mcttCo {
+    position: absolute;
+    color: #FDFDFD
+}
+div#mcttCo em, div#mcttCo b {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}

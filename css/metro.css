@@ -1,0 +1,111 @@
+#metro-box{
+	width: 100%;
+	height: 480px;
+	margin: 40px 0 30px 0;
+	direction: ltr;
+	overflow: hidden;
+}
+#metro-box .column{
+	width: 1030px;
+	float: left;
+}
+#metro-box .metro-item{
+	float: left;
+	width: 338px;
+	margin: 0 5px 5px 0;
+}
+#metro-box .metro-item a{
+	color: #FDFDFD;
+}
+#metro-box .metro-item.big{
+	width: 681px;
+}
+#metro-box .metro-item .box-img{
+	transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+#metro-box .metro-item .box-img img{
+	width: 338px;
+	height: 220px;
+}
+#metro-box .metro-item.big .box-img{
+	width: 681px;
+}
+#metro-box .metro-item.big .box-img img{
+	width: 681px;
+	height: 220px;
+}
+#metro-box .metro-item .box-img .metro-content{
+	transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    padding: 15px;
+    height: 160px;
+    background: rgba(46, 204, 113,.6);
+}
+#metro-box .metro-item .box-img:hover .metro-content{
+	bottom: 0;
+	height: 200px;
+}
+#metro-box .metro-item .box-img .metro-content h3{
+	font: 13px 'welearn',Tahoma;
+	color: #FDFDFD;
+	direction: rtl;
+	text-align: right;
+}
+#metro-box .metro-item .box-img .metro-content .description{
+	color: #FDFDFD;
+	line-height: 23px;
+	margin-top: 40px;
+	direction: rtl;
+	text-align: justify;
+}
+.color_1{
+	background: rgba(52, 152, 219,.9) !important;
+}
+.color_2{
+	background: rgba(52, 73, 94,.9) !important;
+}
+.color_3{
+	background: rgba(231, 76, 60,.9) !important;
+}
+.color_4{
+	background: rgba(231, 76, 60,.9) !important;
+}
+.color_5{
+	background: rgba(142, 68, 173,.9) !important;
+}
+.color_6{
+	background: rgba(39, 174, 96,.9) !important;
+}
+#metro-box .mCSB_container{
+	height: 450px;
+	display: block;
+	overflow: hidden;
+}
+#metro-box .mCSB_scrollTools{
+	width: 100%;
+	height: 20px;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+#metro-box .mCSB_draggerRail{
+	width: 100%;
+	height: 20px;
+	background: #FFF;
+}
+#metro-box .mCSB_dragger_bar{
+	width: 100%;
+	height: 20px;
+	background: #222;
+}
