@@ -1,15 +1,19 @@
 <?php get_header(); ?>
         <div class="welearn-container">
             <div class="welearn-post">
-                <article class="post">
+                <?php
+                    if(have_posts()){
+                        the_post();
+                ?>
+                    <article class="post">
                     <header>
                         <div class="post-title">
-                            <h2><a href="#">دانلود مرورگر موزیلا فایرفاکس</a></h2>
+                            <h2><a href="#"><?php the_title(); ?></a></h2>
                         </div>
                     </header>
-                    <div class="post-img"> <img src="<?php echo get_template_directory_uri(); ?>/images/firefox.jpg" alt=""> </div>
+                    
                     <div class="post-content">
-                        <p> Mozilla Firefox در این نسخه طرح نوینی از Add-on ها و مدیریت و تنظیمات آن ها را به نمایش گذاشته و طوری عمل نموده که کاربران ساده تر از گذشته بتوانند پلاگین های دلخواه خود را که تعدادشان حالا از هزاران هم فراتر رفته را نصب و با قدرت بیشتری به مرور وب بپردازند. Index کردن DB ها برای کانکت شدن سریعتر به اطلاعات موجود برروی سرورها هم از جالب ترین تکنولوژی هایی است که در این نسخه دیده می شود. عدم Crash شدن های متعدد که به دلایل مختلف در نسخه های قبلی به وجود می آمد در این نسخه دیده می شود به طوری که شاید نسبت به قبل به هیچ وجه موزیلا فایرفاکس Crash نشود یا حداقل تعداد آن ها بسیار پائین باشد. نسخه جدید نسبت به قبل سه قابلیت اصلی را تقویت کرده است ؛ سریعتر شده ، راحت تر قابل استفاده است و بازهم سریعتر عمل می کند ؛ این که سریعتر عمل می کند به این خاطر است که با جاوا و کدهای مربوط به آن بسیار سازگارتر شده است. </p>
+                        <?php the_content(); ?>
                     </div>
                     <footer>
                         <div> <a href="#" onmouseover="tooltip.pop(this,'#sub1',{position:0,effect:'slide'})"><span class="fa fa-user fa-2x"></span></a>
@@ -38,7 +42,10 @@
                             </div>
                         </div>
                     </footer>
-                </article>
+                    </article>
+                <?php
+                    }
+                ?>
                 <div class="clear"></div>
                 <div class="post-meta"> <a href="#" class="download" onmouseover="tooltip.pop(this,'#sub10',{position:0,effect:'slide'})"> <span class="fa fa-download fa-lg"></span> دانلود </a>
                     <div style="display:none">

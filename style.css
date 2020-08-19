@@ -314,7 +314,7 @@ a {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    max-width: 100%;
+    margin-bottom:30px;
 }
 
 .post-content{
