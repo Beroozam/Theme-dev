@@ -32,6 +32,7 @@
 #metro-box .metro-item .box-img img{
 	width: 338px;
 	height: 220px;
+	object-fit: cover;
 }
 #metro-box .metro-item.big .box-img{
 	width: 681px;
@@ -39,6 +40,7 @@
 #metro-box .metro-item.big .box-img img{
 	width: 681px;
 	height: 220px;
+	object-fit: cover;
 }
 #metro-box .metro-item .box-img .metro-content{
 	transition: all .2s ease-in-out;
@@ -79,10 +81,10 @@
 	background: rgba(231, 76, 60,.9) !important;
 }
 .color_4{
-	background: rgba(231, 76, 60,.9) !important;
+	background: rgba(142, 68, 173,.9) !important;
 }
 .color_5{
-	background: rgba(142, 68, 173,.9) !important;
+	background: rgba(231, 76, 60,.9) !important;
 }
 .color_6{
 	background: rgba(39, 174, 96,.9) !important;

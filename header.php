@@ -38,46 +38,13 @@
                     <input type="text" name="" value="" placeholder="جستجوی کلمه مورد نظر" onfocus="this.placeholder=''" onblur="this.placeholder='جستجوی کلمه مورد نظر'">
                 </form>
             </div>
-            <ul>
-                <li><a href="#"> درباره ی ما</a></li>
-                <li><a href="#"> تماس با ما </a></li>
-                <li><a href="#">تبلیغات</a></li>
-            </ul>
+            <?php wp_nav_menu( array( 'theme_location' => 'top_menu' , 'container' =>  '' ) ); ?>
         </div>
     </div>
     <div id="main" role='main'>
         <header>
             <nav id="header-nav" role="navigation">
-                <ul>
-                    <li style="background:#2c3e50"><a href="#">
-                            <div class="fa fa-home fa-4x"></div>
-                            <div class="nav-txt">صفحه اصلی</div>
-                        </a></li>
-                    <li style="background:#2980b9"><a href="#">
-                            <div class="fa fa-gears fa-4x"></div>
-                            <div class="nav-txt">نرم افزار</div>
-                        </a></li>
-                    <li style="background:#27ae60"><a href="#">
-                            <div class="fa fa-gamepad fa-4x"></div>
-                            <div class="nav-txt">بازی</div>
-                        </a></li>
-                    <li style="background:#16a085"><a href="#">
-                            <div class="fa fa-pencil fa-4x"></div>
-                            <div class="nav-txt">آموزش</div>
-                        </a></li>
-                    <li style="background:#e74c3c"><a href="#">
-                            <div class="fa fa-android fa-4x"></div>
-                            <div class="nav-txt">اندروید</div>
-                        </a></li>
-                    <li style="background:#e67e22"><a href="#">
-                            <div class="fa fa-code fa-4x"></div>
-                            <div class="nav-txt">توسعه وب</div>
-                        </a></li>
-                    <li style="background:#8e44ad"><a href="#">
-                            <div class="fa fa-code-fork fa-4x"></div>
-                            <div class="nav-txt">شبکه</div>
-                        </a></li>
-                </ul>
+                <?php wp_nav_menu( array( 'theme_location' => 'main_menu' , 'container' => '') ); ?>
             </nav>
             <div class="logo"><a href="<?php bloginfo("url"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="آکادمی وی لرن" title=""></a></div>
         </header>

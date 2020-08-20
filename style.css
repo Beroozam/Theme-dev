@@ -208,7 +208,6 @@ a {
 #header-nav ul > li {
     width: 100px;
     height: 105px;
-    background: #ccc;
     float: right;
 }
 #header-nav ul > li > a {
@@ -219,11 +218,34 @@ a {
     color: #FDFDFD;
     font: 13px 'welearn', Tahoma;
 }
-#header-nav .fa {
-    margin: 10px auto;
+
+.wp_main_menu{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:10px;
+    color:#fdfdfd;
+    line-height: 50px;
 }
-.nav-txt {
-    line-height: 15px;
+.color1{
+    background-color:#2c3e50;    
+}
+.color2{
+    background-color:#2980b9 ;    
+}
+.color3{
+    background-color:#16a085 ;    
+}
+.color4{
+    background-color:#27ae60 ;    
+}
+.color5{
+    background-color:#e74c3c ;    
+}
+.color6{
+    background-color:#e67e22 ;    
+}
+.color7{
+    background-color:#8e44ad ;    
 }
 .logo {
     float: left;
@@ -269,7 +291,8 @@ a {
 	width: 50px;
 	height: 50px;
 	float: right;
-	margin-left: 15px;
+    margin-left: 15px;
+    object-fit: cover;
 }
 .ourpost ul li a{
 	color: #555;
@@ -280,9 +303,10 @@ a {
 	color: #FDFDFD;
 }
 .ourpost span{
-	float: right;
+	display:block;
 	margin-top: 10px;
-	font-size: 11px;
+    font-size: 11px;
+    text-align: right;
 }
 .ads_in{
 	float: left;

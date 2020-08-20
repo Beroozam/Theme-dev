@@ -6,16 +6,21 @@
                     <h3>مطالب پیشنهادی</h3>
                     <div class="demo">
                         <ul>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider/2.jpg" alt=""><a href="#"> تماس های رایگان با LINE: Free Calls & Messages v4.1.0 </a><span>بازدید : 404</span></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider/2.jpg" alt=""><a href="#"> تماس های رایگان با LINE: Free Calls & Messages v4.1.0 </a><span>بازدید : 404</span></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider/2.jpg" alt=""><a href="#"> تماس های رایگان با LINE: Free Calls & Messages v4.1.0 </a><span>بازدید : 404</span></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider/2.jpg" alt=""><a href="#"> تماس های رایگان با LINE: Free Calls & Messages v4.1.0 </a><span>بازدید : 404</span></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider/2.jpg" alt=""><a href="#"> تماس های رایگان با LINE: Free Calls & Messages v4.1.0 </a><span>بازدید : 404</span></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider/2.jpg" alt=""><a href="#"> تماس های رایگان با LINE: Free Calls & Messages v4.1.0 </a><span>بازدید : 404</span></li>
+                            <?php
+                                $q = new WP_Query(
+                                    array("category_name"=>"important_posts","posts_per_page"=> 10)
+                                );
+                                while($q->have_posts()){
+                                    $q->the_post();
+                            ?> 
+                                <li><?php the_post_thumbnail(); ?><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><span><?php if(function_exists('the_views')) { the_views(); } ?></span></li>
+                            <?php            
+                                    };
+                            ?>
                         </ul>
                     </div>
                 </div>
-                <div class="ads_in"><img src="<?php echo get_template_directory_uri(); ?>/images/ads.jpg" alt=""></div>
+                <div class="ads_in"><?php dynamic_sidebar('behrouz_sidebar_1') ?></div>
                 <div class="clear"></div>
                 
                 <?php 
