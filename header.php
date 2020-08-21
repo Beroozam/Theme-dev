@@ -34,8 +34,8 @@
     <div class="masthead">
         <div class="main_masthead">
             <div class="search" role="search">
-                <form action="" method="">
-                    <input type="text" name="" value="" placeholder="جستجوی کلمه مورد نظر" onfocus="this.placeholder=''" onblur="this.placeholder='جستجوی کلمه مورد نظر'">
+                <form action="<?php bloginfo("home") ?>/" method="get">
+                    <input type="text" name="s" value="" placeholder="جستجوی کلمه مورد نظر" onfocus="this.placeholder=''" onblur="this.placeholder='جستجوی کلمه مورد نظر'">
                 </form>
             </div>
             <?php wp_nav_menu( array( 'theme_location' => 'top_menu' , 'container' =>  '' ) ); ?>

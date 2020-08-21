@@ -39,11 +39,13 @@
                             </div>
                         </div> 
                     <?php    
-                            $color++;         
+                            $color++;
+                            wp_reset_postdata();         
                             };
                     ?>
                 </div>
-            <?php            
+            <?php         
+                    wp_reset_postdata();
                     };
             ?>
             
