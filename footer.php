@@ -33,4 +33,5 @@
                 <div class="ui"> طراحی شده توسط آکادمی وی لرن </div>
             </div>
         </div>
+        <?php wp_footer(); ?>
     </footer>

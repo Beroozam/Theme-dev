@@ -19,14 +19,13 @@ if ( post_password_required() ) {
                 'style'      => 'ol',
                 'short_ping' => true,
                 'avatar_size'=> 60,
-				'date'=>false,
+				// 'date'=>false,
             ) );
             ?>
         </ol><!-- .comment-list -->
 
         <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
             <nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
-
                 <div class="nav-previous"><?php previous_comments_link( "قبل تر" ); ?></div>
                 <div class="nav-next"><?php next_comments_link( "بعد تر" ); ?></div>
             </nav><!-- #comment-nav-below -->
