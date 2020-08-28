@@ -486,6 +486,7 @@ a {
 .related img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
 }
 .wp-pagenavi a, .wp-pagenavi span{
     background: #34495E;

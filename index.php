@@ -73,7 +73,7 @@
                     <?php wp_pagenavi(); ?>
                 </nav>
             </div>
-            <?php get_sidebar(); ?>
+            <?php get_sidebar("index"); ?>
         </div>
     </div>
     <div class="clear"></div>
