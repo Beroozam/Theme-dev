@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php bloginfo('name'); wp_title(); ?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/metro.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/tooltip.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/responsive.css">
     <!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.2.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/scrollbar.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easy-ticker.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/tooltip.js"></script>
-    <script typte="text/javascript">
+    <script type="text/javascript">
         jQuery(document).ready(function($) {
             $("#metro-box").mCustomScrollbar({
                 horizontalScroll: true,

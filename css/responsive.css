@@ -1,0 +1,176 @@
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	#main{
+		width: 100%;
+		margin-top: 0;
+	}
+	.masthead,.main_masthead{
+		width: 100%;
+		height: auto;
+		float: right;
+	}
+	.main_masthead > ul > li{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.search{
+		margin: 0;
+		width: 97%;
+	}
+	.search input{
+		width: 97%;
+		padding-left: 0;
+	}
+	#header-nav ul {
+		margin: 40px 70px;
+	}
+	#header-nav ul li{
+		margin-left: 15px;
+	}
+	.logo,.ads_in{
+		float: none;
+		text-align: center;
+	}
+	.welearn-container{
+		width: 100%;
+	}
+	.welearn-post{
+		width: 730px;
+		margin-bottom: 0;
+	}
+	.ourpost{
+		border: none;
+        border-bottom: 2px solid #e6e6e6;
+	}
+	.post{
+		width: 730px;
+		border: none;
+        border-bottom: 2px solid #e6e6e6;
+	}
+	.left-sidebar{
+		width: 265px;
+	}
+	.sidebox{
+		border: none;
+        border-bottom: 2px solid #e6e6e6;
+	}
+	.footer-nav{
+		width:100%;
+	}
+	.main-footer{
+		width: 100%;
+	}
+	.about,.social,.support{
+		width: 100%;
+		height: auto;
+	}
+	.about p{
+		padding:5px 25px;
+	}
+	.about h5{
+		margin-right: 3%;
+	}
+	.social{
+		margin: 0;
+	}
+	.support{
+		margin-bottom: 5%;
+	}
+	.footer-bot{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px){
+	#main{
+		width: 100%;
+		margin-top: 0;
+	}
+	.masthead,.main_masthead{
+		width: 100%;
+		height: auto;
+		float: right;
+	}
+	.main_masthead > ul > li{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.search{
+		margin: 0;
+		width: 97%;
+	}
+	.search input{
+		width: 97%;
+		padding-left: 0;
+	}
+	#header-nav ul > li{
+		margin-top: 15px;
+		margin-left: 7.1px;
+	}
+	.logo,.ads_in{
+		float: none;
+		text-align: center;
+	}
+	.welearn-container{
+		width: 100%;
+	}
+	.welearn-post{
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.ourpost{
+		width: 100%;
+		border: none;
+        border-bottom: 2px solid #e6e6e6;
+	}
+	.ourpost ul{
+		width: 100%;
+	}
+	.post{
+		width: 100%;
+		border: none;
+        border-bottom: 2px solid #e6e6e6;
+	}
+	.left-sidebar{
+		width:100%;
+		float:right;
+	}
+	.sidebox{
+		border: none;
+        border-bottom: 2px solid #e6e6e6;
+	}
+	.footer-nav{
+		width:100%;
+	}
+	.main-footer{
+		width: 100%;
+	}
+	.about,.social,.support{
+		width: 100%;
+		height: auto;
+	}
+	.about p{
+		padding:5px 25px;
+	}
+	.about h5{
+		margin-right: 3%;
+	}
+	.social{
+		margin: 0;
+	}
+	.support{
+		margin-bottom: 5%;
+	}
+	.footer-bot{
+		width: 100%;
+	}
+}
+@media (max-width: 480px){
+	.search{
+		width: 90%
+	}
+	.search input{
+		width: 90%;
+	}
+}

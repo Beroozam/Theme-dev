@@ -573,6 +573,27 @@ a {
     display: block;
     margin: 5px 0;
 }
+.thumb img{
+    float: right;
+}
+.decsoft{
+    float:right;
+}
+.decsoft h4{
+    font:12px/1.5 Tahoma;
+}
+.decsoft h4 a{
+    padding:7px 4px !important;
+    display:block;
+    border-radius:1px;
+}
+.decsoft h4 a:hover{
+    background:#00acf1 !important;
+}
+.decsoft p{
+    font-size:11px;
+    color:#999;
+}
 .footer-nav{
     width: 100%;
     background: #34495E;
@@ -641,4 +662,84 @@ a {
     float: left;
     color: #e2e2e2;
     margin: 17px 0 0 20px;
+}
+#comments{
+    width:100%;
+    float:right;
+    margin-top:20px;
+}
+.comments-title{
+    font:20px 'welearn_s',Tahoma;
+}
+ol.comment-list{
+    width:100%;
+    margin:20px 0 ;
+    float: right;
+}
+ol.comment-list li{
+    padding:14px;
+    position:relative;
+}
+ol.comment-list p {
+    padding-right:75px;
+    margin-bottom:10px;
+}
+ol.comment-list .even{
+    background:#fff;
+    border:1px solid #e2e2e2;
+    border-bottom:2px solid #e6e6e6;
+}
+ol.comment-list li.depth-2{
+    margin-right:30px;
+    background:inherit;
+    margin-top:20px;
+}
+.commentmetadata{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.reply{
+    position:absolute;
+    left:10px;
+    top:30px;
+}
+.fn{
+    position:absolute;
+    right:50px;
+    top:10px;
+}
+.says{
+    display: none;
+}
+#reply-title{
+    font:20px 'welearn_s',Tahoma;
+}
+
+.comment-notes{
+    font:14px 'welearn_s',Tahoma;
+}
+input{
+    margin-bottom:10px;
+    padding:10px 20px; 
+}
+.comment-form-comment label{
+    float:right;
+    margin-left:10px;
+}
+.comment-form-comment textarea{
+    margin-bottom:10px;
+}
+.comment-form-author label{
+    float:right;
+    margin-left:25px;
+}
+
+.comment-form-email label{
+    float:right;
+    margin-left:15px;
+}
+.comment-form-url label{
+    float:right;
+    margin-left:4px;
 }

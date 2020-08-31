@@ -27,6 +27,31 @@
                     
                     </ul>
                 </section>
+                <section class="sidebox">
+                    <h3>دانلود نرم افزار های پیشنهادی</h3>
+                    <ul>
+                        <li>
+                            <div class="thumb">
+                                <img src="<?php bloginfo("template_url") ?>/images/soft/windows8.gif" alt="">
+                            </div>
+                            <div class="decsoft">
+                                <h4><a href="#">متن عنوان نرم افزار </a></h4>
+                                <p>نسخه ی نرم افزار دانلودی</p>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                        <li>
+                            <div class="thumb">
+                                <img src="<?php bloginfo("template_url") ?>/images/soft/windows8.gif" alt="">
+                            </div>
+                            <div class="decsoft">
+                                <h4><a href="#">متن عنوان نرم افزار </a></h4>
+                                <p>نسخه ی نرم افزار دانلودی</p>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </section>
 
                 <?php dynamic_sidebar( "behrouz_sidebar_3" ) ?>
                 
